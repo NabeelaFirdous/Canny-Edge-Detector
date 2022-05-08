@@ -8,8 +8,7 @@ There are some basic steps for the implementation of a Canny edge detector.
 
 ## Steps for implementation:
 1.** Generation of Masks:** This module requires the value of sigma as an input and generates x- and y-derivative masks as output.
-
-       *Mask size: To generate the masks, the first step is a reasonable computation of the mask size. Mask size depends on the value of sigma and T. Formula of size of         half mask is as follows:
+      *Mask size: To generate the masks, the first step is a reasonable computation of the mask size. Mask size depends on the value of sigma and T. Formula of size of half mask is as follows:
        sHalf = round(sqrt(-log(T) * 2 * sigma^2))
        
        *Where sigma and T are input parameters.
